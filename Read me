@@ -1,19 +1,1 @@
-- Project Description: 
 
-The Anesthesia Risk Prediction Web Application is a tool for healthcare professionals to assess anesthesia-related risks in patients undergoing endoscopic procedures using propofol.
- It leverages a logistic regression model for predictions.
-- Project Approach:
-
- The approach involved data preprocessing, exploratory data analysis (EDA), feature scaling, model development and evaluation, serialization,
- and creation of a Streamlit web application for user interaction.
- 
--Insights & Data Visualization:
-
- Insights from EDA include the distribution of key variables like age, weight, ASA score, and risk label.
- Correlation analysis identified positive and negative correlations with the risk label. 
- 
-Feature importance was visualized using a bar chart.
-
-
-- ML Model Accuracy:
- The logistic regression model showed an accuracy of 85.94%, precision of 91.30%, recall of 75.00%, F1 score of 82.35%, and ROC-AUC score of 84.72%, indicating a well-performing model for predicting high-risk cases.
